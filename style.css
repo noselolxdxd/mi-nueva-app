@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2C2C2C; /* Fondo gris oscuro */
+    color: #EAEAEA; /* Texto en un color claro para contrastar */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4a261; /* Amarillo oscuro */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #333; /* Fondo gris oscuro para el área principal */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#recetas-lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recetas-lista li {
+    background-color: #444; /* Fondo ligeramente más claro para las recetas */
+    padding: 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#recetas-lista li:hover {
+    background-color: #555; /* Color de fondo cuando se pasa el ratón */
+}
+
+#detalle-receta {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4a261; /* Amarillo oscuro */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #333; /* Línea arriba del footer para separarlo */
+}
+
+/* Estilos para los elementos de la receta */
+ul {
+    margin-left: 20px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
